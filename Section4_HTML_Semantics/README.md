@@ -12,7 +12,7 @@
   - sup elements
   - br elements
 
-*element examples in [a link](https://github.com/Julie-Gibson/WebDevelopment/blob/main/Section3_HTML_Essentials/about.html)
+*element examples in [HTML Reference](https://github.com/Julie-Gibson/WebDevelopment/blob/main/Section3_HTML_Essentials/about.html)
 
 ## HTML 5
 
