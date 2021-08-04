@@ -12,7 +12,7 @@
   - sup elements
   - br elements
 
-*element examples in [HTML Reference](https://github.com/Julie-Gibson/WebDevelopment/blob/main/Section3_HTML_Essentials/about.html)
+\*element examples in [HTML Reference](https://github.com/Julie-Gibson/WebDevelopment/blob/main/Section3_HTML_Essentials/about.html)
 
 ## HTML 5
 
@@ -46,3 +46,42 @@ Define how elements act on page, in line shares space and block elements take up
 - line break
 - use case - poem
 - used to control where to break line
+
+### sup
+
+- superscript
+- used for citations
+- can nest a link inside
+
+### sub
+
+- subscript
+- can combine with sup to create fraction
+
+## HTML Entities
+
+- used to display reserved characters that are invalid
+- start with ampersand and end with semicolon
+- also for difficult to type characters
+- brower interpreted and rendered to correct character
+- common uses include: > < &
+
+## Semantic Markup
+
+semantic - related to meaning
+meaningless markup means that there is no meaninf in the document
+you can give meaning to pages by using elements that are descriptive
+
+> purpose of using semantic elments to give meaning for web crawlers or google search. 
+> accessability like screen readers 
+> add no new features just gives meaning to the markup
+
+### Semantic elements
+- <section>
+- <article>
+- <nav>
+- <main>
+- <header>
+- <footer>
+- <aside>
+- <summary>
