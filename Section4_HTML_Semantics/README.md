@@ -12,7 +12,7 @@
   - sup elements
   - br elements
 
-\*element examples in [HTML Reference](https://github.com/Julie-Gibson/WebDevelopment/blob/main/Section3_HTML_Essentials/about.html)
+_element examples in [HTML Reference](https://github.com/Julie-Gibson/WebDevelopment/blob/main/Section3_HTML_Essentials/about.html)_
 
 ## HTML 5
 
@@ -72,16 +72,35 @@ semantic - related to meaning
 meaningless markup means that there is no meaninf in the document
 you can give meaning to pages by using elements that are descriptive
 
-> purpose of using semantic elments to give meaning for web crawlers or google search. 
-> accessability like screen readers 
-> add no new features just gives meaning to the markup
+> purpose of using semantic elments to give meaning for web crawlers or google search.
+> Adds accessability for screen readers.
+> Adds no new features just gives meaning to the markup and used for SEO
 
 ### Semantic elements
-- <section>
-- <article>
-- <nav>
-- <main>
-- <header>
-- <footer>
-- <aside>
-- <summary>
+
+- section
+- - represents a standalone section, typically have headings
+- article
+- - self contained composition 
+- - should have heading 
+- nav
+- - element for navigational content
+- main
+- - represents dominant content, should not include repeatable elements like footer, nav bar ...
+- header
+- - introductory content and navigation area
+- footer
+- - self explainatory can exist more than once on page 
+- aside
+- - represents a portion of the document whose content is only indirectly related to main topic
+- summary
+- time
+- - specify attribute
+
+## Emmit
+extension in to help write html with shortened syntax. 
+
+bundled in with vscode
+
+
+[emmit documentation](https://docs.emmet.io/cheat-sheet/)
