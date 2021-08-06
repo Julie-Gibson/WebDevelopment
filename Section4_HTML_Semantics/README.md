@@ -12,8 +12,8 @@
   - sup elements
   - br elements
 
-_element examples in [HTML Reference](https://github.com/Julie-Gibson/WebDevelopment/blob/main/Section3_HTML_Essentials/about.html)_
-
+_element examples in [HTML Reference](
+https://github.com/Julie-Gibson/WebDevelopment/blob/main/Section3_HTML_Essentials/html_reference.html)_
 ## HTML 5
 
 refers to lastest evolution of standard that defines HTML
@@ -98,9 +98,7 @@ you can give meaning to pages by using elements that are descriptive
 - - specify attribute
 
 ## Emmit
-extension in to help write html with shortened syntax. 
-
-bundled in with vscode
+extension to help write html with shortened syntax. 
 
 
-[emmit documentation](https://docs.emmet.io/cheat-sheet/)
+[emmet cheat sheet](https://docs.emmet.io/cheat-sheet/)
