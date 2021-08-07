@@ -12,8 +12,8 @@
   - sup elements
   - br elements
 
-_element examples in [HTML Reference](
-https://github.com/Julie-Gibson/WebDevelopment/blob/main/Section3_HTML_Essentials/html_reference.html)_
+_element examples in [HTML Reference](https://github.com/Julie-Gibson/WebDevelopment/blob/main/Section3_HTML_Essentials/html_reference.html)_
+
 ## HTML 5
 
 refers to lastest evolution of standard that defines HTML
@@ -81,8 +81,8 @@ you can give meaning to pages by using elements that are descriptive
 - section
 - - represents a standalone section, typically have headings
 - article
-- - self contained composition 
-- - should have heading 
+- - self contained composition
+- - should have heading
 - nav
 - - element for navigational content
 - main
@@ -90,7 +90,7 @@ you can give meaning to pages by using elements that are descriptive
 - header
 - - introductory content and navigation area
 - footer
-- - self explainatory can exist more than once on page 
+- - self explainatory can exist more than once on page
 - aside
 - - represents a portion of the document whose content is only indirectly related to main topic
 - summary
@@ -98,7 +98,7 @@ you can give meaning to pages by using elements that are descriptive
 - - specify attribute
 
 ## Emmit
-extension to help write html with shortened syntax. 
 
+extension to help write html with shortened syntax.
 
 [emmet cheat sheet](https://docs.emmet.io/cheat-sheet/)
