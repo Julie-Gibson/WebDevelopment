@@ -60,4 +60,5 @@ the METHOD attribute specifies which HTTP method should be used
   - defined by type attribute
     - Action - where to send data
     - Method - what method to use
-      - GET, POST,
+      - GET, POST
+      

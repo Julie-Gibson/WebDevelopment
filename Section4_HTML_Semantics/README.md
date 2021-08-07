@@ -79,23 +79,23 @@ you can give meaning to pages by using elements that are descriptive
 ### Semantic elements
 
 - section
-- - represents a standalone section, typically have headings
+  - represents a standalone section, typically have headings
 - article
-- - self contained composition
-- - should have heading
+  - self contained composition
+  - should have heading
 - nav
-- - element for navigational content
+  - element for navigational content
 - main
-- - represents dominant content, should not include repeatable elements like footer, nav bar ...
+  - represents dominant content, should not include repeatable elements like footer, nav bar ...
 - header
-- - introductory content and navigation area
+  - introductory content and navigation area
 - footer
-- - self explainatory can exist more than once on page
+  - self explainatory can exist more than once on page
 - aside
-- - represents a portion of the document whose content is only indirectly related to main topic
+  - represents a portion of the document whose content is only indirectly related to main topic
 - summary
-- time
-- - specify attribute
+  -  time
+  - specify attribute
 
 ## Emmit
 
