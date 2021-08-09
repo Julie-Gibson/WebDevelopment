@@ -63,7 +63,7 @@ Example:
 ```html
 <input id="textInput" class="custon" size="32" />
 ```
-> _NOTE: Input tag as no closing tag_
+> _NOTE: Input tag has no closing tag_
 
 - versatile
 - 20 different types of input elements
@@ -128,5 +128,5 @@ Example:
   - can use specific types 
     - url, email, telephone 
 
-    
+
 
