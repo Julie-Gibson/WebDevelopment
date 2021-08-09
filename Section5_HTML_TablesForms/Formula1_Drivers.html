@@ -7,6 +7,8 @@
     <title>2021 Driver Standings</title>
   </head>
   <body>
+    <h1>Tables & Forms & Inputs</h1>
+    <h2>Table</h2>
     <table>
       <thead>
         <tr>
@@ -42,8 +44,118 @@
       </tbody>
     </table>
 
-    <form action="">Form Demo</form>
+    <form action="/forms">
+      <h2>Form Demo</h2>
+
+      <p>
+        <label for="uname">Username: </label>
+        <input type="text" placeholder="username" id="uname" name="username" />
+      </p>
+
+      <label for="pw">Password: </label>
+      <input type="password" placeholder="password" id="pw" name="password" />
+
+      <!-- Also valid but less common method to label inputs-->
+      <p>
+        <label>
+          Pick a color:
+          <input type="color" />
+        </label>
+      </p>
+
+      <p>
+        <input type="Range" />
+        <input type="number" placeholder="Enter a number" />
+      </p>
+
+      <button>Button No type</button>
+      <!-- Lass common but also valid submit button -->
+      <input type="submit" value="Input Button" />
+      <button type="button">Regular Button</button>
+    </form>
+
+    <hr />
+
+    <button>Not inside form, therefore does not submit</button>
+    <hr />
+    <h2>Routing Searches</h2>
+    <h3>Search Reddit</h3>
+    <form action="https://www.reddit.com/search/">
+      <label for="reddit"></label>
+      <input type="text" name="q" placeholder="reddit search" />
+      <button>Search Reddit</button>
+    </form>
+
+    <h3>Search Google</h3>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" placeholder="google search" />
+      <button>Search Google</button>
+    </form>
+    <hr />
+
+    <h2>More Inputs</h2>
+    <h3>Checkbox</h3>
+    <!-- when form is submitted this is the route: /birds?agree_to=on -->
+    <form action="/birds">
+      <input type="checkbox" name="agree_to" id="agree" />
+      <label for="agree">I agree to everything</label>
+      <button>Submit</button>
+    </form>
+
+    <h3>Radio Elents</h3>
+    <!-- when form is submitted this is the route: /birds?size=small -->
+    <form action="/birds">
+      <!-- when form is submitted route gives name=value so you should define value of radio button and name is the what the group of radio buttons represent-->
+      <label for="XS">Xtra Small: </label>
+      <input type="radio" name="size" id="XS" value="xtra-small" />
+      <label for="S">Small: </label>
+      <input type="radio" name="size" id="S" value="small" />
+      <label for="M">Medium: </label>
+      <input type="radio" name="size" id="M" value="medium" />
+      <button>Submit</button>
+    </form>
+
+    <h3>Select Element</h3>
+    <form action="/flavor">
+      <label for="flavor_Select">Please Select a flavor: </label>
+      <select name="flavor" id="flavor_Select">
+        <option value="">-- Please Select a Flavor --</option>
+        <option value="Strawberry" selected>Strawberry</option>
+        <option value="Kiwi">Kiwi</option>
+        <option value="Watermelon">Watermelon</option>
+      </select>
+      <button>Submit</button>
+    </form>
+
+    <h3>Range Element</h3>
+    <form action="/cheese">
+      <p>
+        <label for="cheese">Amount of cheese: </label>
+        <input type="range" id="cheese"/ min="0" max="10" name="cheese_level">
+      </p>
+      <h3>Text Area</h3>
+      <p>
+        <label for="cheese_text">Type a cheese story:</label><br />
+        <textarea
+          name="cheese_types"
+          id=""
+          cols="30"
+          rows="10"
+          id="cheese_text"
+        ></textarea>
+      </p>
+      <button>Submit</button>
+    </form>
+
+    <h3>Validations Demo</h3>
+    <form action="/dummy">
+      <label for="first">Enter first name: </label>
+      <input type="text" name="first" id="first" required/>
+      <p>
+        <label for="user">Username</label>
+        <input type="text" id="text" id="user" name="user" minlength="2" maxlength="10" required>
+      </p>
+      <button>Submit</button>
+    </form>
   </body>
 </html>
-
-
