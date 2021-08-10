@@ -104,7 +104,7 @@ Simple Example:
 # References
 [Color Picker](https://htmlcolorcodes.com/color-picker/) <br>
 [Color Names](https://htmlcolorcodes.com/color-names/) <br>
-[Font Stacl](https://www.cssfontstack.com/) <br>
+[Font Stack](https://www.cssfontstack.com/) <br>
  
 
 
